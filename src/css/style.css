@@ -1,0 +1,16 @@
+/* abstracts */
+@import "abstracts/defaults.css";
+@import "abstracts/colors.css";
+@import "abstracts/typography.css";
+@import "abstracts/sizes.css";
+/* components */
+@import "components/header.css";
+@import "components/buttons.css";
+@import "components/usluge-card.css";
+@import "components/kontakt-card.css";
+@import "components/footer.css";
+/* pages */
+@import "pages/home.css";
+/* utilities */
+@import "utilities/animations.css";
+@import "utilities/globals.css";
