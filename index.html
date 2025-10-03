@@ -24,7 +24,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/baguettebox.js@1.11.1/dist/baguetteBox.min.css"
     />
-    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
     <!-- BaguetteBox JS -->
     <script
       defer
@@ -47,6 +47,9 @@
           </li>
           <li class="nav__item">
             <a href="#radovi" class="nav__link">Galerija</a>
+          </li>
+          <li class="nav__item">
+            <a href="#cjenik" class="nav__link">Cjenik</a>
           </li>
           <li class="nav__item">
             <a href="#kontakt" class="nav__link">Kontakt</a>
@@ -353,6 +356,24 @@
         </div>
       </section>
       <!-- 👉 CJENIK section -->
+      <section class="cjenik-section" id="cjenik">
+        <div class="container">
+          <div class="cjenik__container">
+            <h2 class="cjenik-headline">Pogledajte naš cjenik</h2>
+            <div class="cjenik__inner-container">
+              <a
+                class="btn download-btn"
+                href="/src/assets/cjenik-img.png"
+                download
+                >Preuzmite cjenik
+                <img
+                  src="/src/assets/icons/download-icon.svg"
+                  alt="download icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- 👉 KONTAKT section -->
       <section class="kontakt-section" id="kontakt">
         <div class="container">
@@ -410,6 +431,9 @@
                 <a href="#radovi" class="footer__link">Galerija</a>
               </li>
               <li class="footer__item">
+                <a href="#cjenik" class="footer__link">Cjenik</a>
+              </li>
+              <li class="footer__item">
                 <a href="#kontakt" class="footer__link">Kontakt</a>
               </li>
             </ul>
@@ -430,7 +454,15 @@
         </div>
       </div>
       <div class="copyright">
-        <p>Copyright 2025. - Sva prava pridržana.</p>
+        <p>
+          Copyright 2025. - Sva prava pridržana. Web stranicu kreirao
+          <a
+            href="https://www.galac-design.hr"
+            target="_blank"
+            style="color: rgb(157, 181, 255)"
+            >GALAC-DESIGN.</a
+          >
+        </p>
       </div>
     </footer>
   </body>
